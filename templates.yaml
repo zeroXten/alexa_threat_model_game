@@ -1,0 +1,32 @@
+welcome: Welcome to Elevation of Privilege. To learn how to play, just ask for help. You are playing the game {{name}}. {% include 'card' %}
+
+card: Your {{prefix}} card is the {{card["rank_word"]}} of {{card["suit"]}}. {{card["description"]}}.
+
+no_cards: There are no more cards left in the deck. {% include 'card' %}
+
+first_card: You are on the first card in the deck. {% include 'card' %}
+
+next_card: OK, getting the next card. {% include 'card' %}
+
+previous_card: OK, getting the previous card. {% include 'card' %}
+
+restart_game: The game {{name}} has been restarted and a new deck has been shuffled. {% include 'card' %}
+
+help_info: |
+    Elevation of Privilege (E.O.P.) is the easy way to get started threat modelling. {% include 'how_to_play_question' %}
+
+how_to_play_question: Would you like to know how to play?
+how_to_play_info: |
+    First, draw a diagram of the system you want to threat model. The card deck has been shuffled for you, and when you are ready you can ask for the current card. Record the threat and how it applies to the system you are threat modelling. When you are ready, you can ask for the next card. You can also go back to the previous card. At any point, you can ask for the current card. If you would like to start the game again, you can restart the game and the deck will be reshuffled. {% include 'threat_modelling_question' %}
+
+threat_modelling_question: Would you like to hear more about threat modelling?
+threat_modelling_info: |
+    According to OWASP, Threat modelling is a procedure for optimizing Network/ Application/ Internet Security by identifying objectives and vulnerabilities, and then defining countermeasures to prevent, or mitigate the effects of, threats to the system. A threat is a potential or actual undesirable event that may be malicious (such as DoS attack) or incidental (failure of a Storage Device). Threat modeling is a planned activity for identifying and assessing application threats and vulnerabilities. Microsoft says that Threat modeling should not be a one time only process. It should be an iterative process that starts during the early phases of the design of your application and continues throughout the application life cycle. There are two reasons for this. First, it is impossible to identify all of the possible threats in a single pass. Second, because applications are rarely static and need to be enhanced and adapted to suit changing business requirements, the threat modeling process should be repeated as your application evolves. Microsoft breaks the process down into six stages. Identify assets, create an architecture overview, decompose the application, identify the threats, document the threats, and rate the threats. For more information on threat modelling, read Adam Shostack's book, Threat Modelling, Designing for Security. {% include 'about_game_question' %}
+
+about_game_question: Would you like to hear more about this version of the Elevation of Privilege game?
+about_game_info: |
+    Elevation of Privilege (E.O.P.) is the easy way to get started threat modelling, which is a core component of the design phase in the Microsoft Security Development Lifecycle(SDL). The E.O.P. card game helps clarify the details of threat modeling and examines possible threats to software and computer systems. The E.O.P. game focuses on the following threats. Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege. These are also known as stride. The original Elevation of Privilege game was created by Microsoft. This Alexa version was created by Fraser Scott, A.K.A zero X ten. For more information see alexa dot threat spec dot org. {% include 'end_of_help' %}
+
+end_of_help: That's the end of the help. Enjoy, and happy threat modelling.
+
+nohandler: Hmmmm, I'm not sure I understand what you mean.

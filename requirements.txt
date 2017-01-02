@@ -1,0 +1,4 @@
+boto3
+pyyaml
+flask-ask
+zappa

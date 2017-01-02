@@ -1,0 +1,48 @@
+HowToPlayIntent how to play the game
+HowToPlayIntent how is the game played
+HowToPlayIntent how do I play the game
+HowToPlayIntent how to play elevation of privilege
+HowToPlayIntent how is elevation of privilege played
+HowToPlayIntent how do I play elevation of privilege
+HowToPlayIntent how to play this
+HowToPlayIntent how is this played
+HowToPlayIntent how do I play this
+
+ThreatModellingIntent hear about threat modelling
+ThreatModellingIntent know about threat modelling
+ThreatModellingIntent learn about threat modelling
+
+AboutGameIntent hear about the game
+AboutGameIntent know about the game
+AboutGameIntent learn about the game
+AboutGameIntent hear about elevation of privilege
+AboutGameIntent know about elevation of privilege
+AboutGameIntent learn about elevation of privilege
+
+RandomCardIntent random card
+
+CurrentCardIntent current card
+CurrentCardIntent this card
+CurrentCardIntent to repeat
+CurrentCardIntent say the card
+
+NextCardIntent for a card
+NextCardIntent for a new card
+NextCardIntent next card
+NextCardIntent another one
+NextCardIntent another card
+
+PreviousCardIntent previous card
+PreviousCardIntent last one
+PreviousCardIntent last card
+
+RestartGameIntent restart game
+RestartGameIntent restart the game
+RestartGameIntent start the game again
+RestartGameIntent shuffle
+RestartGameIntent shuffle the deck
+RestartGameIntent shuffle the cards
+RestartGameIntent reshuffle
+RestartGameIntent reshuffle the deck
+RestartGameIntent reshuffle the cards
+

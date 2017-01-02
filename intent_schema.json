@@ -1,0 +1,33 @@
+{
+    "intents": [{
+        "intent": "RestartGameIntent"
+    }, {
+        "intent": "RandomCardIntent"
+    }, {
+        "intent": "HowToPlayIntent"
+    }, {
+        "intent": "ThreatModellingIntent"
+    }, {
+        "intent": "AboutGameIntent"
+    }, {
+        "intent": "CurrentCardIntent"
+    }, {
+        "intent": "NextCardIntent"
+    }, {
+        "intent": "AMAZON.NextIntent"
+    }, {
+        "intent": "PreviousCardIntent"
+    }, {
+        "intent": "AMAZON.PreviousIntent"
+    }, {
+        "intent": "AMAZON.StopIntent"
+    }, {
+        "intent": "AMAZON.CancelIntent"
+    }, {
+        "intent": "AMAZON.HelpIntent"
+    }, {
+        "intent": "AMAZON.YesIntent"
+    }, {
+        "intent": "AMAZON.NoIntent"
+    }]
+}
