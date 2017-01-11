@@ -1,0 +1,24 @@
+# Testing instructions
+
+No special instructions
+
+# Short Skill Description
+
+Unofficial Alexa version of the Elevation of Privilege threat modelling game.
+
+# Full Skill Description
+
+Get started with Threat Modelling the easy way. Draw a diagram of the system you want to threat model, then use this Alexa Skill to work your way through the Elevation of Privilege card deck. Use the threat cards to find weaknesses in your system, then record your findings and come up with mitigations. 
+
+This skill is in no way associated with, nor endorsed by Microsoft.
+
+# Example Phrases
+
+Alexa Open Threat Model Game
+Alexa Ask Threat Model Game For The next card
+Alexa Ask Threat Model Game For The previous card
+
+# Keywords
+
+threat modelling, cybersecurity, hacking
+
