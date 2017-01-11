@@ -39,12 +39,12 @@ class AlexaSession():
 # Classes
 #####################################################################
 
-class EopGame:
+class ThreatModelGame:
     def __init__(self):
         self.user_data = {}
 
     def load_table(self):
-        table_name = 'eop_games'
+        table_name = 'threat_model_games'
         logger.debug("loading table {0}".format(table_name))
 
         client = boto3.client('dynamodb')
@@ -150,7 +150,7 @@ class EopGame:
         self.save()
         return self.index()
 
-class EopCardDeck:
+class ThreatModelCardDeck:
     def load_cards(self):
         self.cards = []
         logger.debug("reading cards.yaml")
@@ -198,8 +198,8 @@ class EopCardDeck:
             self.game.previous_index()
         return self.card()
 
-game = EopGame()
-deck = EopCardDeck()
+game = ThreatModelGame()
+deck = ThreatModelCardDeck()
 
 #####################################################################
 # Intent functions
